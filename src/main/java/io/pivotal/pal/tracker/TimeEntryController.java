@@ -11,7 +11,7 @@ import static java.util.Objects.isNull;
 @RestController
 public class TimeEntryController {
 
-    @Autowired
+
     private final TimeEntryRepository timeEntryRepository;
 
     public TimeEntryController(TimeEntryRepository timeEntryRepository) {
